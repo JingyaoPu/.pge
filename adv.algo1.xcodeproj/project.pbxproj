@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C269883021FFE78A002981FB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C269882F21FFE78A002981FB /* main.c */; };
+		C269883C21FFE7A1002981FB /* imageio.c in Sources */ = {isa = PBXBuildFile; fileRef = C269883721FFE7A1002981FB /* imageio.c */; };
+		C269884222001072002981FB /* picelsCal.c in Sources */ = {isa = PBXBuildFile; fileRef = C269884122001072002981FB /* picelsCal.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		C269882C21FFE78A002981FB /* adv.algo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = adv.algo1; sourceTree = BUILT_PRODUCTS_DIR; };
 		C269882F21FFE78A002981FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C269883721FFE7A1002981FB /* imageio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = imageio.c; sourceTree = "<group>"; };
+		C269883821FFE7A1002981FB /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
+		C269883921FFE7A1002981FB /* building.pgm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = building.pgm; sourceTree = "<group>"; };
+		C269883A21FFE7A1002981FB /* blocks.pgm */ = {isa = PBXFileReference; lastKnownFileType = file; path = blocks.pgm; sourceTree = "<group>"; };
+		C269884022001072002981FB /* picelsCal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picelsCal.h; sourceTree = "<group>"; };
+		C269884122001072002981FB /* picelsCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = picelsCal.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,13 @@
 		C269882E21FFE78A002981FB /* adv.algo1 */ = {
 			isa = PBXGroup;
 			children = (
+				C269883A21FFE7A1002981FB /* blocks.pgm */,
+				C269883921FFE7A1002981FB /* building.pgm */,
+				C269883721FFE7A1002981FB /* imageio.c */,
+				C269883821FFE7A1002981FB /* imageio.h */,
 				C269882F21FFE78A002981FB /* main.c */,
+				C269884022001072002981FB /* picelsCal.h */,
+				C269884122001072002981FB /* picelsCal.c */,
 			);
 			path = adv.algo1;
 			sourceTree = "<group>";
@@ -118,7 +132,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C269884222001072002981FB /* picelsCal.c in Sources */,
 				C269883021FFE78A002981FB /* main.c in Sources */,
+				C269883C21FFE7A1002981FB /* imageio.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
